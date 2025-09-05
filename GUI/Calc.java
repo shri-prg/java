@@ -1,5 +1,4 @@
 import java.awt.*;
-
 class Calc extends Frame{
 TextField tf;
 String[] labels={"C","CE","1/x","x^2","xroot","=","+","*","/","0","1","2","3","4","5","6","7","8","9"};
@@ -14,10 +13,7 @@ Calc(String s){
 			buttons[i]=new Button(labels[i]);
 			add(buttons[i],BorderLayout.CENTER);
 		}
-		
 		setVisible(true);
-		
-		
 	}
 	public static void main(String args[]){
 		new Calc("Calculator");
