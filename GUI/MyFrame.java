@@ -23,7 +23,7 @@ public class MyFrame extends Frame {
         setVisible(true);// set frame visible
     }
     public static void main(String[] args) {
-        MyFrame f=new MyFrame("My Frame");// create frame object
+        new MyFrame("My Frame");// create frame object
     }
     
 }
