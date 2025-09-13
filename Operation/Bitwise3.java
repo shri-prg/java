@@ -17,7 +17,7 @@ public class Bitwise3 {
         int s=17;
         System.out.println("left shift");
         System.out.println(s<<3);
-        int q=
+        
         
     }
 }
