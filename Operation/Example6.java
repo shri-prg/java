@@ -5,8 +5,8 @@ public class Example6 {
         int q=p++ + p++;
         System.out.println(q);
         int r=5;
-        int s= q-- + q--;
-        System.out.println(q);
+        int s= r-- + r--;
+        System.out.println(s);
         int a=10;
         int b= a++ + a++ + a++;
         System.out.println(b);
