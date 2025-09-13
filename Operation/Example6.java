@@ -21,5 +21,29 @@ public class Example6 {
         System.out.println(i);
         System.out.println(++i);
         System.out.println(i);
+        int m= 12;
+        System.out.println(++m);
+        System.out.println(++m);
+        System.out.println(m);
+        int j = 16;
+        System.out.println(--j);
+        System.out.println(--j);
+        System.out.println(j);
+        int g = 11; 
+        int k = ++g + ++g;
+        System.out.println(k);
+        int o = 18;
+        int l = --o + --o;
+        System.out.println(l);
+        int f= 14;
+        int e = ++f + ++f + ++f;
+        System.out.println(e);
+        int w =13;
+        int u=--w + --w + --w;
+        System.out.println(u);
+        int h= 13;
+        int v= 16;
+        int n= --h + ++v + --h + ++v;
+        System.out.println(n);
     }
 }
